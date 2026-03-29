@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Emploi Du Temps</title>
+</head>
+<body>
+    <p align="center"> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL4-k1y2xVVzaoRAMaXSFpl6LiU4Yh7OFr3g&s"
+    </p>
+  <div> 
+ <p text-align="right"style="width: 600px;"><u>Annee Uniersitaire 2025-2026 </u></p>
+ <img src="image.jpeg"style="width: 200px;"><h3 align="center">Emploi Du Temps Proisoire - IAIL-S2</h3>
+</div> 
+<table border="1"align="center" style="width: 80%;"cellspacing="1.5" cellpadding="10"> 
+    <tr> 
+        <th style="background-color:rgb(230, 228, 228);"></th>
+        <th style="background-color:rgb(230, 228, 228);">9h00 A 10h30 </th>
+        <th style="background-color:rgb(230, 228, 228);">10h30 A 12h00 </th>
+        <th style="background-color:rgb(230, 228, 228);">12h15 A 13h45 </th>
+        <th style="background-color:rgb(230, 228, 228);">13h45 A 15h15 </th>
+        <th style="background-color:rgb(230, 228, 228);">15h30 A 17h00 </th>
+        <th style="background-color:rgb(230, 228, 228);">17h00 A 18h30 </th>
+    </tr>
+    <tr> 
+        <td style="background-color:rgb(230, 228, 228);">Lundi</td>
+        <td>Programmation Python 2<br><a href="message_prof.html">Prof M.Laraqui</a><br>cours-Amphi A</td>
+        <td>Algorithmes Et<br>Programmation C 2<br><a href="message_prof.html">Prof H.Oudani</a><br>cours-Amphi A</td>
+        <td></td>
+        <td>Algorithmes Et<br>Programmation C 2<p style="color: red;">Td/tp Grp1-Salle P2</p>cours-Amphi A</td>
+         <td>Programmation Python 2<p style="color: red;">Td/Tp Grp3-Salle P2<br><a href="message_prof.html">prof A.Elourdi</a></p></td>
+        <td>Programmation Python 2<p style="color: red;">Td/Tp Grp2-Salle P2<br><a href="message_prof.html">prof A.Elourdi</a></p></td>
+    </tr>
+    <tr> 
+        <td style="background-color:rgb(230, 228, 228);">Mardi</td>
+        <td>Programmation Python 2<p style="color: red;">Td/Tp Grp2-Salle P2<br>prof A.Elourdi</p></td>
+        <td></td>
+        <td>Digital Sills &<br>Intelligence Artificielle<br>cours-Amphi A<br><a href="message_prof.html">Prof A.Eloudi</a></td>
+        <td>Digital Sills &<br>Intelligence Artificielle<br>cours-Amphi A<br><a href="message_prof.html">Prof A.Eloudi</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr> 
+        <td style="background-color:rgb(230, 228, 228);">Mercredi</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Algorithmes Et<br>Programmation C 2<p style="color: red;">Td/tp Grp1-Salle P2</p>cours-Amphi A</td>
+        <td>Algebre 2<br>TD-Amphi A<br><a href="message_prof.html">Prof I.Bouaaayamo</a></td>
+        <td>Analse 2<br>td-Amphi A<br><a href="message_prof.html">Prof A.Hadri</a></td>
+    </tr>
+    <tr> 
+    <td style="background-color:rgb(230, 228, 228);">Jeudi</td>
+    <td>Tretement Du Signal<br>cours-Amphi A<br><a href="message_prof.html">prof H.Azzahhafi</a></td>
+    <td>Tretement Du Signal<br>cours-Amphi A<br><a href="message_prof.html">prof H.Azzahhafi</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr> 
+        <td style="background-color:rgb(230, 228, 228);">vendredi</td>
+        <td>Algebre 2<br>TD-Amphi A<br><a href="message_prof.html">prof I.boutaayamo</a></td>
+        <td>Analse 2<br>td-Amphi A<br><a href="message_prof.html">Prof A.Hadri</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr> 
+        <td style="background-color:rgb(230, 228, 228);">Samedi</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Programmation Web 1<P style="color: red;">td/tp G2-Salle P2<br><a href="message_prof.html">Prof A.Hakem</a></P></td>
+        <td>Programmation Web 1<br>cours-Salle p1<br><a href="message_prof.html">Prof K.Omari</a></td>
+        <td>Programmation Web 1<P style="color: red;">td/tp G2-Salle P2<br><a href="message_prof.html">Prof A.Hakem</a></P></td>
+    </tr>
+</table>
+</body> 
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>contacter le professeur</title>
+</head>
+<body>
+     <h2>envoyer un message au professeur</h2>
+     <form>
+         <label>nom:</label><br>
+         <input type="text" name="nom"><br> <br>
+         <label>email</label><br>
+         <input type="email"name="email"><br><br>
+         <label>nessage:</label><br>
+         <textarea name="message" rows="5"cole="30"></textarea><br><br>
+         <input type="submit" value="envoyer">
+     </form>
+</body>
+</html>
+
