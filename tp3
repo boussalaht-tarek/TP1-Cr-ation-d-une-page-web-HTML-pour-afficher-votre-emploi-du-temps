@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boussalah Tarek - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cv">
+    <div class="header">
+        <img src="tarek.jpg" alt="Boussalah Tarek" class="photo">
+        <h1 class="name">BOUSSALAH TAREK</h1>
+        <p class="title">SECURITER ET RESAUX INFORMATIQUE STUDENT </p>
+        <p class="description">
+      etudiant en Securite et Reseaux informatiques a l Universite Ibn Zohr. 
+    Passionne par la cybersecurite et les reseaux. 
+    Experience pratique en design  montage video et Kali Linux. 
+    Motive organise et a la recherche d une premiere experience professionnelle.
+        </p>
+    </div>
+    <h2>EXPERIENCE</h2>
+    <div class="section">
+        <ul>
+            <li><strong>Merch by amazon</strong> : 2 mois</li>
+            <li><strong>canvas</strong> : 2 mois</li>
+            <li><strong>design</strong> : 1 ans</li>
+            <li><strong>editing video</strong> : 3 ans </li>
+            <li><strong>kali linux</strong> : 3 mois</li>
+        </ul>
+    </div>
+    <h2>langues</h2>
+    <div class="section">
+        <strong>duolingo|netflix:</strong>2019|2026<br>
+        <ul>
+            <li><strong>francais</strong> : B1</li>
+            <li><strong>anglais</strong> : B1</li>
+            <li><strong>arabe</strong> : C1</li>
+            <li><strong>amazighe</strong> : C2</li>
+        </ul>
+    </div>
+    <h2>Club</h2>
+    <div class="section">
+        <ul>
+            <li><strong> Echecs </strong>: 2015-2020 </li>
+            <li><strong> football </strong>: 2015-2020 </li>
+            <li><strong> karate </strong>: 2015-2019 </li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h2>information</h2>
+        <p><strong>Email:</strong>boussalaht@gmail.com</p>
+        <p><strong>Phone:</strong> +212 610142884</p>
+        <p><strong>Address:</strong> tinghir, Morocco</p>
+        <p><strong>LinkedIn:</strong>TAREK boussalah</p>
+        <p><strong>GitHub:</strong>" https://github.com/boussalaht-tarek/TP1-Cr-ation-d-une-page-web-HTML-pour-afficher-votre-emploi-du-temps.git "</p>
+    </div>
+</div>
+</body>
+</html>
