@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyT3WcmMRk7oflKKxzGampOzAUG83t3PtEaw&s">
+            <h2>titel 1</h2>
+            <p>description</p>
+            <button> button </button>
+        </div>
+        <div class="box box2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCU-M-LMIA4D7nG69LrlG8M9LIOgVUOBJgog&s">
+            <h2>titel 2</h2>
+            <p>description</p>
+            <button> button </button>
+        </div>
+        <div class="box box3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv8STn0OP1bhE8AURBNcpLy3wTCqQa1DTIwg&s">
+            <h2>titel 3</h2>
+            <p>description</p>
+            <button> button </button>
+        </div>
+        <div class="box box4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyBGZevckIzs5cWP9edlChrslxNOw6Nv129g&s">
+            <h2>titel 4</h2>
+            <p>description</p>
+            <button> button </button>
+        </div>
+        <div class="box box5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyfAxa94x2sCfBnGdhAT6muLGAZiwExbx2Mw&s">
+            <h2>titel 5</h2>
+            <p>description</p>
+            <button> button </button>
+        </div>
+        <div class="box box6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQxu5SCBQTJxtMk2rEOQIpJoAT8udyTRDIwA&s">
+            <h2>titel 6</h2>
+            <p>description</p>
+            <button> button </button>
+        </div>
+    </div>
