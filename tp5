@@ -1,0 +1,91 @@
+EX1:
+html:
+DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quistions</title>
+</head>
+<body>
+ <script src="TPJS.js"></script>
+</body>
+</html>
+js:
+let nombre1 = prompt("Entre le premier nombre :");
+let nombre2 = prompt("Entre le deuxième nombre :");
+nombre1 = Number(nombre1);
+nombre2 = Number(nombre2);
+let somme = nombre1 + nombre2;
+let difference = nombre1 - nombre2;
+let produit = nombre1 * nombre2;
+let quotient = nombre1 / nombre2;
+console.log("La somme est : " + somme);
+console.log("La différence est : " + difference);
+console.log("Le produit est : " + produit);
+console.log("Le quotient est : " quotient);
+EX2:
+html:
+DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quistions</title>
+</head>
+<body>
+ <script src="TPJS.js"></script>
+</body>
+</html>
+js:
+let nombreSecret = Math.floor(Math.random() * 10) + 1;
+let tentative = 0;
+let proposition;
+alert("Devinez un nombre entre 1 et 10");
+while (true) {
+    proposition = Number(prompt("Quelle est votre proposition ?"));
+    tentative++;
+    if (proposition === nombreSecret) {
+        alert("Bravo ! Vous avez trouvé en " + tentative + " tentatives");
+        break;
+    } 
+    else if (proposition < nombreSecret) {
+        alert("Le nombre secret est plus grand");
+    } 
+    else {
+        alert("Le nombre secret est plus petit");
+    }
+}
+EX3:
+html:
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Interactif</title>
+</head>
+<body>
+    <h1>Quiz Interactif</h1>
+    <button onclick="lancerQuiz()">Démarrer le Quiz</button>
+    <script src="quiz.js"></script>
+</body>
+</html>
+js:
+let QUESTIONS = [
+    ["Quelle est la capitale de la France ?", "Paris"],
+    ["Quel langage rend les pages web interactives ?", "JavaScript"],
+    ["Combien font 8 × 7 ?", "56"],
+    ["Quelle est la capitale du Maroc ?", "Rabat"],
+    ["Qui a inventé JavaScript ?", "Brendan Eich"]
+];
+function lancerQuiz() {
+    let score = 0;
+    for (let i = 0; i < QUESTIONS.length; i++) {
+        let reponse = prompt(QUESTIONS[i][0]);
+        if (reponse !== null && reponse.toLowerCase() === QUESTIONS[i][1].toLowerCase()) {
+            alert("Réponse juste");
+            score++;
+        } else {
+            alert("Réponse fausse");
+        }
+    }
+    alert("Vous avez répondu correctement à " + score + " questions sur " + QUESTIONS.length);
+}
