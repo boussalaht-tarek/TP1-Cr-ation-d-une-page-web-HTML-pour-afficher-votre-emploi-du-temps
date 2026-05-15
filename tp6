@@ -1,0 +1,94 @@
+html ex1
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <p id="paragraphe">hello world</p>
+     <button id="btnChangerTexte">modifier</button>
+     <button id="btnChangerCouleur">style</button>
+</div>
+<script src="ex1.js"></script>
+</body>
+</html>
+html ex2:
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <h1>Ma Liste de Tâches</h1>
+  <input type="text" id="inputTache" placeholder="Nouvelle tâche...">
+  <button id="btnAjouter">Ajouter</button>
+  <ul id="listeTaches"></ul>
+  <script src="ex2.js"></script>
+</body>
+</html>
+js1:
+let div = document.createElement("div");
+let p = document.createElement("p");
+p.textContent = "bonjour";
+div.appendChild(p);
+document.body.appendChild(div);
+p.textContent = "hello";
+p.style.backgroundColor = "lightblue";
+p.style.textAlign = "center";
+div.addEventListener("click", function() {
+p.textContent = "Un clic a ete det";});
+js2:
+const input = document.getElementById("inputTache");
+const btnAjouter = document.getElementById("btnAjouter");
+const liste = document.getElementById("listeTaches");
+btnAjouter.addEventListener("click", function() {
+    const texte = input.value.trim();
+    if (texte === "") return;
+    const li = document.createElement("li");
+    li.classList.add("tache");
+    li.innerHTML = `
+        <span>${texte}</span>
+        <div>
+            <button class="btn-accomplir">✓</button>
+            <button class="btn-supprimer">✖</button>
+        </div>
+    `;
+    li.querySelector(".btn-accomplir").addEventListener("click", function() {
+        li.querySelector("span").classList.toggle("accomplie");
+    });
+    li.querySelector(".btn-supprimer").addEventListener("click", function() {
+        li.remove();
+    });
+    liste.appendChild(li);
+    input.value = "";
+});
+css:
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+.accomplie {
+  text-decoration: line-through;
+  color: rgb(119, 119, 119);
+}
+.tache {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 8px 0;
+  background: #f9faf9;
+  border-radius: 5px;
+}
+h1{
+    color: #f9faf9;
+    margin-bottom: 20px;
+}
